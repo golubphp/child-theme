@@ -1,0 +1,89 @@
+/*
+Theme Name:   Colombo Child Theme
+Description:  Colombo Wordpress Theme
+Author:		  Marjan Golubovic
+Template:     twentynineteen
+Version:      1.1
+License:      GNU General Public License
+Tags:         wordpress, marjan, colombo
+Text Domain:  wpcolombo
+*/
+
+a:link {
+  text-decoration: none;
+}
+
+#blog_main_section a {
+	color: #1B2F48 !important;
+}
+
+#heading{
+height: 380px;
+background: url('./images/bg_img.png');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.single-content img{
+width: 400px;
+height: 300px;
+}
+
+
+.headindg-colombo,
+#heading > div > div > p {
+	padding-top: 2em;
+	color: white;
+}
+
+#blog_main_section {
+	margin-top: 4em;
+}
+
+.tags-section p {
+	color: #1B2F48;
+	background-color: #33FBA3;
+	padding: 0.5em;
+}
+
+#single-post > div > div > div > div.col-md-4.text-center {
+	margin-top: 3em;
+}
+
+/* SOCIAL ICONS SHARING */
+
+ .at-share-btn {
+    display: inline-block;
+    margin: 0 2px 5px;
+    overflow: hidden;
+    line-height: 0;
+
+    cursor: pointer;
+    font-family: helvetica neue,helvetica,arial,sans-serif;
+	padding: 5px;
+}
+
+ .at-share-btn:hover {
+    transition: all .2s ease-in-out;
+    background-color: red;
+	margin: -6px 2px 5px;
+	text-decoration: none;
+}
+
+.at-icon-wrapper {
+    float: left;
+
+}
+
+.comments {
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* CATEGORY SECTION */
+
+#category_section_id li {
+	list-style: none;
+	text-align: left !important;
+}
+

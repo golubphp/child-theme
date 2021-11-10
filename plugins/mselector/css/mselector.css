@@ -1,0 +1,17 @@
+/* Add Custom Styles to the WordPress Visual Editor */
+
+body { 
+
+}
+
+.highlighter {
+    background-color: red !important;
+}
+
+p {
+	color: blue !important;
+}
+
+body:not(.mce-content-body) {
+
+}

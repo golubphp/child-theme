@@ -1,0 +1,15 @@
+{
+  "name": "jobbrs-child",
+  "version": "1.0.0",
+  "description": "jobbrs test blog page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "marjan",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.1",
+    "gulp-contrib-copy": "^0.1.3"
+  }
+}
